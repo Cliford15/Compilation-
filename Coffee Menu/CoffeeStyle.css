@@ -1,0 +1,37 @@
+@font-face{
+    font-family: myFont;
+    src:url(myFont.ttf);
+}
+body{
+    padding:0;
+    margin:0;
+    background-image:url(BG1.jpeg);
+    background-repeat:repeat;
+}
+.Title{
+    display:flex;
+}
+.Classic, img{
+    margin:10px;
+    border-radius:0;
+}
+.Title, img{
+    height:190px;
+    border-radius:50px;
+    margin-left:480px;
+}
+.Menu{
+    font-family:myFont;
+    font-size:70px;
+    text-align:center;
+}
+
+.Classic, table, tr, td{
+    border:1px solid black;
+}
+.Classic{
+    border:none;
+    margin:20px;
+    font-family:myFont;
+}
+
